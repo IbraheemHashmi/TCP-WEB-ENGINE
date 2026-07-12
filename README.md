@@ -29,7 +29,7 @@ Since there are exactly **zero dependencies**, running this project takes less t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/IbraheemHashmi/tcp-web-engine.git
+   git clone https://github.com/IbraheemHashmi/TCP-WEB-ENGINE.git
    ```
 2. Run the server:
    ```bash
