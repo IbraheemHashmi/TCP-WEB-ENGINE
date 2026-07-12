@@ -3,10 +3,6 @@ const CustomHTTPServer = require('./server');
 const app = new CustomHTTPServer();
 const PORT = 8080;
 
-// ----------------------------------------------------
-// Define our API and Web Routes
-// ----------------------------------------------------
-
 app.get('/', (req, res) => {
     const html = `
         <html>
@@ -31,10 +27,6 @@ app.get('/api/status', (req, res) => {
     });
     res.send(jsonResponse, 200, 'application/json');
 });
-
-// ----------------------------------------------------
-// Start the Server
-// ----------------------------------------------------
 
 app.listen(PORT, () => {
     console.log(`========================================`);
